@@ -27,6 +27,7 @@ ehthumbs.db
 !html/
 !index.html
 !contact.html
+!about.html
 !.gitignore
 !package.json
 !package-lock.json
