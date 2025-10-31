@@ -455,9 +455,13 @@ h6 {
 }
 .mfp-close::after {
   position: absolute;
-  content: "\f00d";
-  height: 100%;
-  width: 100%;
+  background-image: url("/assets/svg/close-icon.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  content: "";
+  height: 30px;
+  width: 30px;
   font-family: var(--rs-ff-fontawesome);
   font-size: 31px;
   font-weight: 200;
