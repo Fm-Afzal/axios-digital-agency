@@ -12770,13 +12770,13 @@ body.demo-is-open .rs-togglebar-wrapper {
   margin-bottom: 13px;
 }
 .rs-pricing-one .pricing-feature ul li::before {
-  content: "\eb7b";
+  content: "\f058";
   color: var(--rs-theme-purple-light);
   font-size: 21px;
   margin: 0;
   font-weight: 400;
   display: inline-block;
-  font-family: "remixicon";
+  font-family: "Font Awesome 7 Free"; 
   position: absolute;
   inset-inline-start: 0;
 }
@@ -12784,7 +12784,7 @@ body.demo-is-open .rs-togglebar-wrapper {
   color: #666;
 }
 .rs-pricing-one .pricing-feature ul li.close::before {
-  content: "\eb99";
+  content: "\f057";
   color: #666;
 }
 .rs-pricing-one .pricing-feature-title {

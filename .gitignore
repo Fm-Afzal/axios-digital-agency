@@ -30,6 +30,8 @@ ehthumbs.db
 !about.html
 !team.html
 !team-details.html
+!pricing.html
+
 !.gitignore
 !package.json
 !package-lock.json
