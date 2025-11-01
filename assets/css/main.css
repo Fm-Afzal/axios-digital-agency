@@ -169,7 +169,8 @@ h6 {
   --rs-ff-body: "Space Grotesk", sans-serif;
   --rs-ff-title: "Space Grotesk", sans-serif;
   --rs-ff-p: "Space Grotesk", sans-serif;
-  --rs-ff-fontawesome: "Font Awesome 6 Pro";
+  /* --rs-ff-fontawesome: "Font Awesome 6 Pro"; */
+  --rs-ff-fontawesome: "Font Awesome 7 Free";
   --rs-ff-remixicon: "remixicon";
   /** @color declaration */
   --rs-white: #ffffff;
@@ -3013,7 +3014,7 @@ textarea:focus {
   line-height: 1;
   opacity: 1;
   content: "\f061";
-  font-family: "Font Awesome 7 Free"; 
+  font-family: "Font Awesome 7 Free";
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
@@ -6494,20 +6495,15 @@ body.demo-is-open .rs-togglebar-wrapper {
 }
 
 .main-menu li .has-arrow > a::after {
+  content: "\f107";
   position: absolute;
   inset-inline-end: 20px;
   transition: all 0.3s ease-in-out;
-  font-size: 20px;
-  background-image: url("/assets/svg/chevron-down.svg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 20px;
-  height: 20px;
-  content: "";
-  vertical-align: middle;
-  content: "";
-  font-family: var(--rs-ff-remixicon);
+  font-size: 16px;
+  font-family: var(--rs-ff-fontawesome);
+  font-weight: 900;
 }
+
 .main-menu li .has-arrow:hover a::after {
   transform: rotate(-90deg);
 }
@@ -6523,19 +6519,13 @@ body.demo-is-open .rs-togglebar-wrapper {
   position: relative;
 }
 .main-menu > ul > li.menu-item-has-children > a::after {
-  font-weight: 400;
+  content: "\f107";
+  font-size: 16px;
+  font-weight: 900;
   transition: all 0.3s ease-in-out;
   display: inline-block;
-  margin-left: 2px;
-  font-size: 20px;
-  background-image: url("/assets/svg/chevron-down.svg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 20px;
-  height: 20px;
-  content: "";
-  vertical-align: middle;
-  font-family: var(--rs-ff-remixicon);
+  margin-left: 7px;
+  font-family: var(--rs-ff-fontawesome);
 }
 
 .rs-header-area.has-theme-gradient .main-menu ul li.active > a {
@@ -12776,7 +12766,7 @@ body.demo-is-open .rs-togglebar-wrapper {
   margin: 0;
   font-weight: 400;
   display: inline-block;
-  font-family: "Font Awesome 7 Free"; 
+  font-family: "Font Awesome 7 Free";
   position: absolute;
   inset-inline-start: 0;
 }
