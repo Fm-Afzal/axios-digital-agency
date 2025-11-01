@@ -7322,8 +7322,8 @@ body.demo-is-open .rs-togglebar-wrapper {
   margin-inline-end: 10px;
 }
 .rs-postbox-quote blockquote:before {
-  content: "\ec51" !important;
-  font-family: remixicon !important;
+  content: "\f10d" !important;
+  font-family: " Font Awesome 7 Free" !important;
   position: absolute;
   left: auto;
   right: 30px;

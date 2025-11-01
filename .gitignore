@@ -38,6 +38,7 @@ ehthumbs.db
 !portfolio.html
 !portfolio-details.html
 !blog.html
+!blog-details.html
 
 !.gitignore
 !package.json
