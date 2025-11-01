@@ -3009,11 +3009,11 @@ textarea:focus {
 }
 .common-pagination ul li a.is-next::before {
   position: absolute;
-  font-family: remixicon !important;
   font-size: 16px;
   line-height: 1;
   opacity: 1;
-  content: "\ea6c";
+  content: "\f061";
+  font-family: "Font Awesome 7 Free"; 
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
